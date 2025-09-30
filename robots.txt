@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://dataai-expert.com/sitemap.xml
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1
+
+# Disallow common non-content directories
+Disallow: /assets/temp/
+Disallow: /scripts/temp/
+Disallow: /*.log$
+
+# Allow important directories
+Allow: /assets/
+Allow: /styles/
+Allow: /scripts/
+Allow: /services/
