@@ -1,0 +1,62 @@
+{
+  "name": "ai-data-solutions-website",
+  "version": "1.0.0",
+  "description": "Professional AI & Data Development Services Website - SEO Optimized with 20+ Years of Excellence",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve . -p 8000",
+    "dev": "npx live-server --port=8000 --open=/",
+    "build": "npm run minify-css && npm run minify-js",
+    "minify-css": "npx clean-css-cli -o dist/styles.min.css styles.css",
+    "minify-js": "npx uglify-js script.js -o dist/script.min.js -c -m",
+    "optimize-images": "npx imagemin images/*.{jpg,png} --out-dir=images/optimized --plugin=webp",
+    "lighthouse": "npx lighthouse http://localhost:8000 --view",
+    "seo-check": "npx lighthouse http://localhost:8000 --only-categories=seo --view",
+    "perf-check": "npx lighthouse http://localhost:8000 --only-categories=performance --view",
+    "validate-html": "npx html-validate index.html",
+    "check-links": "npx broken-link-checker http://localhost:8000 -ro",
+    "deploy-netlify": "npx netlify-cli deploy --prod",
+    "deploy-vercel": "npx vercel --prod"
+  },
+  "keywords": [
+    "ai",
+    "artificial-intelligence",
+    "machine-learning",
+    "data-engineering",
+    "data-analytics",
+    "enterprise-software",
+    "custom-ai-solutions",
+    "generative-ai",
+    "llm-development",
+    "database-development",
+    "devops",
+    "cloud-solutions",
+    "seo-optimized"
+  ],
+  "author": "AI Data Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/ai-data-solutions-website.git"
+  },
+  "devDependencies": {
+    "clean-css-cli": "^5.6.3",
+    "html-validate": "^8.9.1",
+    "imagemin-cli": "^7.0.0",
+    "imagemin-webp": "^8.0.0",
+    "lighthouse": "^11.4.0",
+    "live-server": "^1.2.2",
+    "serve": "^14.2.1",
+    "uglify-js": "^3.17.4"
+  },
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions",
+    "not dead",
+    "not IE 11"
+  ],
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}
