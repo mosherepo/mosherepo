@@ -1,0 +1,11 @@
+/* TEAM */
+Developer: 20-Year Expert Team
+Contact: hello@yourdomain.com
+Location: Global
+
+/* SITE */
+Standards: HTML5, CSS3, ES2020
+Components: Vanilla JS, Progressive Enhancement
+Hosting: Static hosting / CDN
+SEO: Semantic HTML, structured data, sitemap, robots
+
