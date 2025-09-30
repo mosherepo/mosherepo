@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our portfolio of successful AI and data development projects across various industries including healthcare, finance, e-commerce, and more.">
+    <meta name="keywords" content="AI portfolio, machine learning projects, data analytics case studies, AI development examples">
+    <title>Portfolio - AI & Data Development Projects | Success Stories</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html"><h2>DataAI Expert</h2></a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link active">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Portfolio Hero Section -->
+    <section class="portfolio-hero">
+        <div class="container">
+            <div class="portfolio-hero-content">
+                <h1>Portfolio</h1>
+                <p>Showcasing successful AI and data solutions across various industries</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Filter -->
+    <section class="portfolio-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="healthcare">Healthcare</button>
+                <button class="filter-btn" data-filter="finance">Finance</button>
+                <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+                <button class="filter-btn" data-filter="automotive">Automotive</button>
+                <button class="filter-btn" data-filter="manufacturing">Manufacturing</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section class="featured-projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <p>Real-world AI solutions that deliver measurable business value</p>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Healthcare Project -->
+                <div class="project-card" data-category="healthcare">
+                    <div class="project-image">
+                        <i class="fas fa-heartbeat"></i>
+                        <div class="project-overlay">
+                            <h3>Healthcare Predictive Analytics</h3>
+                            <p>Early disease detection system</p>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Healthcare</div>
+                        <h3>AI-Powered Disease Detection System</h3>
+                        <p>Developed a machine learning system that analyzes medical images and patient data to detect early signs of diseases, improving patient outcomes by 40% in clinical trials.</p>
+                        <div class="project-details">
+                            <div class="detail">
+                                <strong>Challenge:</strong> Early detection of diseases from medical images
+                            </div>
+                            <div class="detail">
+                                <strong>Solution:</strong> Deep learning model with 95% accuracy
+                            </div>
+                            <div class="detail">
+                                <strong>Impact:</strong> 40% improvement in early detection rates
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>OpenCV</span>
+                            <span>DICOM</span>
+                        </div>
+                        <div class="project-results">
+                            <div class="result">
+                                <span class="result-number">95%</span>
+                                <span class="result-label">Accuracy</span>
+                            </div>
+                            <div class="result">
+                                <span class="result-number">40%</span>
+                                <span class="result-label">Improvement</span>
+                            </div>
+                            <div class="result">
+                                <span class="result-number">6</span>
+                                <span class="result-label">Months</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Finance Project -->
+                <div class="project-card" data-category="finance">
+                    <div class="project-image">
+                        <i class="fas fa-chart-line"></i>
+                        <div class="project-overlay">
+                            <h3>Financial Fraud Detection</h3>
+                            <p>Real-time fraud prevention</p>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Finance</div>
+                        <h3>Real-Time Fraud Detection System</h3>
+                        <p>Built an AI-powered fraud detection system that analyzes transaction patterns in real-time, reducing false positives by 60% and saving millions in fraudulent transactions.</p>
+                        <div class="project-details">
+                            <div class="detail">
+                                <strong>Challenge:</strong> High false positive rates in fraud detection
+                            </div>
+                            <div class="detail">
+                                <strong>Solution:</strong> Ensemble ML models with real-time processing
+                            </div>
+                            <div class="detail">
+                                <strong>Impact:</strong> 60% reduction in false positives
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>PyTorch</span>
+                            <span>Apache Kafka</span>
+                            <span>Redis</span>
+                        </div>
+                        <div class="project-results">
+                            <div class="result">
+                                <span class="result-number">60%</span>
+                                <span class="result-label">Reduction</span>
+                            </div>
+                            <div class="result">
+                                <span class="result-number">99.8%</span>
+                                <span class="result-label">Precision</span>
+                            </div>
+                            <div class="result">
+                                <span class="result-number">50ms</span>
+                                <span class="result-label">Response</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- E-commerce Project -->
+                <div class="project-card" data-category="ecommerce">
+                    <div class="project-image">
+                        <i class="fas fa-shopping-cart"></i>
+                        <div class="project-overlay">
+                            <h3>E-commerce AI Engine</h3>
+                            <p>Personalized recommendations</p>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">E-commerce</div>
+                        <h3>AI-Powered Recommendation Engine</h3>
+                        <p>Developed a sophisticated recommendation system using collaborative filtering and deep learning that increased sales by 35% and improved customer engagement by 50%.</p>
+                        <div class="project-details">
+                            <div class="detail">
+                                <strong>Challenge:</strong> Low conversion rates and customer engagement
+                            </div>
+                            <div class="detail">
+                                <strong>Solution:</strong> Hybrid recommendation system with deep learning
+                            </div>
+                            <div class="detail">
+                                <strong>Impact:</strong> 35% increase in sales, 50% better engagement
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>Apache Spark</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-results">
+                            <div class="result">
+                                <span class="result-number">35%</span>
+                                <span class="result-label">Sales Increase</span>
+                            </div>
+                            <div class="result">
+                                <span class="result-number">50%</span>
+                                <span class="result-label">Engagement</span>
+                            </div>
+                            <div class="result">
+                                <span class="result-number">2M+</span>
+                                <span class="result-label">Users</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Automotive Project -->
+                <div class="project-card" data-category="automotive">
+                    <div class="project-image">
+                        <i class="fas fa-car"></i>
+                        <div class="project-overlay">
+                            <h3>Autonomous Vehicle AI</h3>
+                            <p>Self-driving car systems</p>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Automotive</div>
+                        <h3>Autonomous Vehicle Data Processing</h3>
+                        <p>Created a real-time data processing system for autonomous vehicle fleet management, processing 1TB of sensor data daily with 99.9% uptime and sub-100ms latency.</p>
+                        <div class="project-details">
+                            <div class="detail">
+                                <strong>Challenge:</strong> Processing massive amounts of sensor data in real-time
+                            </div>
+                            <div class="detail">
+                                <strong>Solution:</strong> Distributed processing with edge computing
+                            </div>
+                            <div class="detail">
+                                <strong>Impact:</strong> 99.9% uptime, sub-100ms latency
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>OpenCV</span>
+                            <span>Kubernetes</span>
+                            <span>Apache Kafka</span>
+                        </div>
+                        <div class="project-results">
+                            <div class="result">
+                                <span class="result-number">99.9%</span>
+                                <span class="result-label">Uptime</span>
+                            </div>
+                            <div class="result">
+                                <span class="result-number">100ms</span>
+                                <span class="result-label">Latency</span>
+                            </div>
+                            <div class="result">
+                                <span class="result-number">1TB</span>
+                                <span class="result-label">Daily Data</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Manufacturing Project -->
+                <div class="project-card" data-category="manufacturing">
+                    <div class="project-image">
+                        <i class="fas fa-industry"></i>
+                        <div class="project-overlay">
+                            <h3>Smart Manufacturing</h3>
+                            <p>Quality control automation</p>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Manufacturing</div>
+                        <h3>AI-Powered Quality Control System</h3>
+                        <p>Implemented computer vision-based quality control system that reduced defect rates by 70% and increased production efficiency by 25% in a manufacturing facility.</p>
+                        <div class="project-details">
+                            <div class="detail">
+                                <strong>Challenge:</strong> High defect rates and manual quality control
+                            </div>
+                            <div class="detail">
+                                <strong>Solution:</strong> Computer vision with real-time defect detection
+                            </div>
+                            <div class="detail">
+                                <strong>Impact:</strong> 70% reduction in defects, 25% efficiency gain
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>OpenCV</span>
+                            <span>TensorFlow</span>
+                            <span>Industrial IoT</span>
+                        </div>
+                        <div class="project-results">
+                            <div class="result">
+                                <span class="result-number">70%</span>
+                                <span class="result-label">Defect Reduction</span>
+                            </div>
+                            <div class="result">
+                                <span class="result-number">25%</span>
+                                <span class="result-label">Efficiency</span>
+                            </div>
+                            <div class="result">
+                                <span class="result-number">24/7</span>
+                                <span class="result-label">Monitoring</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education Project -->
+                <div class="project-card" data-category="education">
+                    <div class="project-image">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div class="project-overlay">
+                            <h3>EdTech AI Platform</h3>
+                            <p>Personalized learning system</p>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Education</div>
+                        <h3>Personalized Learning AI Platform</h3>
+                        <p>Developed an AI-powered educational platform that personalizes learning paths for students, resulting in 45% improvement in learning outcomes and 60% increase in engagement.</p>
+                        <div class="project-details">
+                            <div class="detail">
+                                <strong>Challenge:</strong> One-size-fits-all learning approach
+                            </div>
+                            <div class="detail">
+                                <strong>Solution:</strong> Adaptive learning with AI personalization
+                            </div>
+                            <div class="detail">
+                                <strong>Impact:</strong> 45% better outcomes, 60% more engagement
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Scikit-learn</span>
+                            <span>React</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="project-results">
+                            <div class="result">
+                                <span class="result-number">45%</span>
+                                <span class="result-label">Better Outcomes</span>
+                            </div>
+                            <div class="result">
+                                <span class="result-number">60%</span>
+                                <span class="result-label">Engagement</span>
+                            </div>
+                            <div class="result">
+                                <span class="result-number">10K+</span>
+                                <span class="result-label">Students</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Client Testimonials</h2>
+                <p>What our clients say about our AI and data solutions</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"The AI solution transformed our healthcare operations. We've seen a 40% improvement in early disease detection, which has saved countless lives."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Dr. Sarah Johnson</h4>
+                            <p>Chief Medical Officer, MedTech Solutions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"The fraud detection system has been a game-changer for our bank. We've reduced false positives by 60% and saved millions in fraudulent transactions."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Michael Chen</h4>
+                            <p>Head of Risk Management, Global Bank</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"Our e-commerce platform saw a 35% increase in sales after implementing the recommendation engine. The ROI was immediate and substantial."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Lisa Rodriguez</h4>
+                            <p>CEO, ShopSmart Inc.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Start Your Next AI Project?</h2>
+                <p>Let's discuss how we can help you achieve similar results with your business.</p>
+                <a href="contact.html" class="btn btn-primary">Start Your Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>DataAI Expert</h3>
+                    <p>Transforming businesses through intelligent technology solutions with 20+ years of expertise.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">AI Consulting</a></li>
+                        <li><a href="services.html">Machine Learning</a></li>
+                        <li><a href="services.html">Data Analytics</a></li>
+                        <li><a href="services.html">Custom Development</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-envelope"></i> contact@dataaiexpert.com</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 DataAI Expert. All rights reserved. | Privacy Policy | Terms of Service</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Portfolio filter functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const projectCards = document.querySelectorAll('.project-card');
+
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Remove active class from all buttons
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    // Add active class to clicked button
+                    this.classList.add('active');
+
+                    const filter = this.getAttribute('data-filter');
+
+                    projectCards.forEach(card => {
+                        if (filter === 'all' || card.getAttribute('data-category') === filter) {
+                            card.style.display = 'block';
+                            card.style.animation = 'fadeInUp 0.6s ease';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
