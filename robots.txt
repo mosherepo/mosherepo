@@ -1,0 +1,29 @@
+# Robots.txt for AI Data Solutions
+# Allow all search engines to crawl the entire site
+
+User-agent: *
+Allow: /
+
+# Disallow specific paths (if needed)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Sitemap location
+Sitemap: https://www.yourcompany.com/sitemap.xml
+
+# Crawl-delay (optional, use if needed)
+# Crawl-delay: 1
+
+# Specific rules for common bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Block bad bots (optional)
+# User-agent: BadBot
+# Disallow: /

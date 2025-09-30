@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>404 - Page Not Found | AI Data Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .error-page {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);
+            padding: 2rem;
+        }
+
+        .error-container {
+            text-align: center;
+            color: white;
+            max-width: 600px;
+        }
+
+        .error-code {
+            font-size: 8rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #0066FF 0%, #00D9FF 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1;
+            margin-bottom: 1rem;
+        }
+
+        .error-title {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        .error-description {
+            font-size: 1.125rem;
+            color: rgba(255, 255, 255, 0.8);
+            margin-bottom: 2rem;
+            line-height: 1.7;
+        }
+
+        .error-links {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .error-link {
+            display: inline-block;
+            padding: 0.875rem 1.75rem;
+            background: linear-gradient(135deg, #0066FF 0%, #00D9FF 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 0.75rem;
+            font-weight: 600;
+            transition: all 0.25s ease;
+        }
+
+        .error-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(0, 102, 255, 0.3);
+        }
+
+        .error-link.secondary {
+            background: rgba(255, 255, 255, 0.1);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .error-link.secondary:hover {
+            background: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 10px 25px rgba(255, 255, 255, 0.1);
+        }
+
+        @media (max-width: 576px) {
+            .error-code {
+                font-size: 5rem;
+            }
+
+            .error-title {
+                font-size: 1.5rem;
+            }
+
+            .error-description {
+                font-size: 1rem;
+            }
+
+            .error-links {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="error-page">
+        <div class="error-container">
+            <div class="error-code">404</div>
+            <h1 class="error-title">Oops! Page Not Found</h1>
+            <p class="error-description">
+                The page you're looking for seems to have wandered off into the data cloud. 
+                Let's get you back on track with our AI-powered solutions.
+            </p>
+            <div class="error-links">
+                <a href="/" class="error-link">Go to Homepage</a>
+                <a href="/#services" class="error-link secondary">View Services</a>
+                <a href="/#contact" class="error-link secondary">Contact Us</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Track 404 errors in analytics
+        if (typeof gtag !== 'undefined') {
+            gtag('event', 'exception', {
+                'description': '404: ' + window.location.pathname,
+                'fatal': false
+            });
+        }
+
+        // Optional: Suggest similar pages
+        const currentPath = window.location.pathname;
+        console.log('404 Error - Requested path:', currentPath);
+    </script>
+</body>
+</html>
